@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    background-color: #212529;
+    color: #FFF;
+}
+
+#paginacao {
+    position: fixed;
+    bottom: 1%;
+}
+
+.table-hover {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: darkolivegreen;
+    border-color: darkolivegreen;
+}
+
+.selected:hover {
+    background: #00000025;
+    border-color: #00000025;
+}

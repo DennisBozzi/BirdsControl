@@ -1,0 +1,22 @@
+{
+  "name": "birdscontrol",
+  "version": "1.0.0",
+  "description": "Learning about API paradigms - JsonServer",
+  "main": "index.js",
+  "scripts": {
+    "backend": "json-server --watch database/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisBozzi/BirdsControl.git"
+  },
+  "author": "Dennis Bozzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisBozzi/BirdsControl/issues"
+  },
+  "homepage": "https://github.com/DennisBozzi/BirdsControl#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
